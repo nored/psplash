@@ -23,12 +23,12 @@
 #define PSPLASH_STARTUP_MSG ""
 
 /* Bool indicating if the image is fullscreen, as opposed to split screen */
-#define PSPLASH_IMG_FULLSCREEN 0
+#define PSPLASH_IMG_FULLSCREEN 1
 
 /* Position of the image split from top edge, numerator of fraction */
-#define PSPLASH_IMG_SPLIT_NUMERATOR 5
+#define PSPLASH_IMG_SPLIT_NUMERATOR 0
 
 /* Position of the image split from top edge, denominator of fraction */
-#define PSPLASH_IMG_SPLIT_DENOMINATOR 6
+#define PSPLASH_IMG_SPLIT_DENOMINATOR 0
 
 #endif
