@@ -4,8 +4,7 @@ PSPLASH
 PSplash is a userspace graphical boot splash screen for mainly
 embedded Linux devices supporting a 16bpp or 32bpp framebuffer. It has
 few dependencies (just libc), supports basic images and text and handles
-rotation. Its visual look is configurable by commandline arguments and basic
-source changes (mainly defines).
+rotation. Its visual look is configurable by basic source changes.
 
 Also included is a 'client' command utility for sending information to
 psplash such as boot progress information.
@@ -20,10 +19,10 @@ Please refer to
 for some useful guidelines to be followed when submitting patches.
 
 Mailing list:
-    https://lists.yoctoproject.org/listinfo/yocto
+    https://lists.yoctoproject.org/g/yocto
 
 When creating patches, please use something like:
     git format-patch -M -s --subject-prefix='psplash][PATCH' origin
 
 When sending patches, please use something like:
-    git send-email --to yocto@yoctoproject.org <generated patch>
+    git send-email --to yocto@lists.yoctoproject.org <generated patch>
